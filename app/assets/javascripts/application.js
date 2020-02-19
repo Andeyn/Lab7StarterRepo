@@ -14,4 +14,6 @@
 //= require jquery_ujs 
 //= require rails-ujs
 //= require_tree .
-
+$( document ).ready(function () {
+    $(".dropdown-button").dropdown();
+})
